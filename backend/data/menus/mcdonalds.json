@@ -1,0 +1,110 @@
+{
+  "id": "mcdonalds",
+  "name": "McDonald's",
+  "menu": [
+    {
+      "id": 1,
+      "slug": "big_mac",
+      "name": "Big Mac",
+      "ingredients": ["beef", "bun", "lettuce", "cheese"],
+      "price": 5.29,
+      "category": "entree"
+    },
+    {
+      "id": 2,
+      "slug": "quarter_pounder",
+      "name": "Quarter Pounder with Cheese",
+      "ingredients": ["beef", "bun", "cheese"],
+      "price": 5.79,
+      "category": "entree"
+    },
+    {
+      "id": 3,
+      "slug": "mcchicken",
+      "name": "McChicken",
+      "ingredients": ["chicken", "bun", "lettuce"],
+      "price": 2.29,
+      "category": "entree"
+    },
+    {
+      "id": 4,
+      "slug": "mcdouble",
+      "name": "McDouble",
+      "ingredients": ["beef", "bun", "cheese"],
+      "price": 2.99,
+      "category": "entree"
+    },
+    {
+      "id": 5,
+      "slug": "cheeseburger",
+      "name": "Cheeseburger",
+      "ingredients": ["beef", "bun", "cheese"],
+      "price": 2.39,
+      "category": "entree"
+    },
+    {
+      "id": 6,
+      "slug": "nugget_4pc",
+      "name": "4 Piece Chicken McNuggets",
+      "ingredients": ["chicken"],
+      "price": 2.49,
+      "category": "entree"
+    },
+    {
+      "id": 7,
+      "slug": "nugget_6pc",
+      "name": "6 Piece Chicken McNuggets",
+      "ingredients": ["chicken"],
+      "price": 4.99,
+      "category": "entree"
+    },
+    {
+      "id": 8,
+      "slug": "medium_fries",
+      "name": "Medium Fries",
+      "ingredients": ["potato"],
+      "price": 3.19,
+      "category": "side"
+    },
+    {
+      "id": 9,
+      "slug": "small_fries",
+      "name": "Small Fries",
+      "ingredients": ["potato"],
+      "price": 2.39,
+      "category": "side"
+    },
+    {
+      "id": 10,
+      "slug": "medium_drink",
+      "name": "Medium Soft Drink",
+      "ingredients": ["drink"],
+      "price": 2.29,
+      "category": "drink"
+    },
+    {
+      "id": 11,
+      "slug": "small_drink",
+      "name": "Small Soft Drink",
+      "ingredients": ["drink"],
+      "price": 1.79,
+      "category": "drink"
+    },
+    {
+      "id": 12,
+      "slug": "mcflurry",
+      "name": "Oreo McFlurry",
+      "ingredients": ["dessert", "dairy"],
+      "price": 3.99,
+      "category": "dessert"
+    },
+    {
+      "id": 13,
+      "slug": "apple_pie",
+      "name": "Baked Apple Pie",
+      "ingredients": ["dessert"],
+      "price": 1.89,
+      "category": "dessert"
+    }
+  ]
+}

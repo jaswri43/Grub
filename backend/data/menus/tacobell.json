@@ -1,0 +1,22 @@
+{
+    "id": "tacobell",
+    "name": "Taco Bell",
+    "menu": [
+        {
+            "id": 1,
+            "slug": "beef_taco",
+            "name": "Beef Taco",
+            "ingredients": ["beef", "tortilla", "lettuce", "cheese"],
+            "price": 1.99,
+            "category": "entree"
+        },
+        {
+            "id": 2,
+            "slug": "chicken_burrito",
+            "name": "Chicken Burrito",
+            "ingredients": ["chicken","tortilla", "rice", "beans"],
+            "price": 3.49,
+            "category": "entree"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "big_mac_meal",
+    "type": "fixed_bundle",
+    "items": ["big_mac", "medium_fries", "medium_drink"],
+    "price": 9.99,
+    "uses_app_slot": false
+  },
+  {
+    "id": "quarter_pounder_meal",
+    "type": "fixed_bundle",
+    "items": ["quarter_pounder", "medium_fries", "medium_drink"],
+    "price": 10.49,
+    "uses_app_slot": false
+  },
+  {
+    "id": "6_dollar_value_meal",
+    "type": "fixed_bundle",
+    "items": ["mcdouble", "small_fries", "small_drink", "nugget_4pc"],
+    "price": 6.00,
+    "uses_app_slot": false
+  },
+  {
+    "id": "bogo_big_mac",
+    "type": "bogo",
+    "eligible_items": ["big_mac", "quarter_pounder"],
+    "second_item_price": 1.00,
+    "uses_app_slot": false
+  },
+  {
+    "id": "mcchicken_40_off",
+    "type": "percent_discount",
+    "item": "mcchicken",
+    "percent_off": 40,
+    "uses_app_slot": true
+  },
+  {
+    "id": "free_cheeseburger_reward",
+    "type": "free_item",
+    "item": "cheeseburger",
+    "points_cost": 1500,
+    "uses_reward_slot": true
+  },
+  {
+    "id": "free_fries_friday",
+    "type": "free_item",
+    "item": "medium_fries",
+    "points_cost": 0,
+    "uses_app_slot": true
+  },
+  {
+    "id": "dessert_bogo",
+    "type": "bogo",
+    "eligible_items": ["mcflurry", "apple_pie"],
+    "second_item_price": 0.00,
+    "uses_app_slot": true
+  }
+]
