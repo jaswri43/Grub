@@ -36,19 +36,18 @@ def optimize(request: OptimizeRequest):
         request.rewards_points = 0
 
     try:
-        optimized_items, total_price, deals_used = optimize_order(
+        # return alternatives within +30% of cheapest, max 10 results by default
+        options = optimize_order(
             menu,
             deals,
             request.item_requirements,
             request.ingredient_requirements,
-            request.rewards_points
+            request.rewards_points,
+            delta_pct=0.3,
+            max_results=10,
         )
 
-        return {
-            "optimized_items": optimized_items,
-            "total_price": total_price,
-            "deals_used": deals_used,
-        }
+        return {"options": options}
 
     except HTTPException as e:
         raise e
